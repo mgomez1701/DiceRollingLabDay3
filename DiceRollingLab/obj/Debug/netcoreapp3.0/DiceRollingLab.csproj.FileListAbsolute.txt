@@ -1,0 +1,11 @@
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\bin\Debug\netcoreapp3.0\DiceRollingLab.exe
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\bin\Debug\netcoreapp3.0\DiceRollingLab.deps.json
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\bin\Debug\netcoreapp3.0\DiceRollingLab.runtimeconfig.json
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\bin\Debug\netcoreapp3.0\DiceRollingLab.runtimeconfig.dev.json
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\bin\Debug\netcoreapp3.0\DiceRollingLab.dll
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\bin\Debug\netcoreapp3.0\DiceRollingLab.pdb
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\obj\Debug\netcoreapp3.0\DiceRollingLab.csprojAssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\obj\Debug\netcoreapp3.0\DiceRollingLab.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\obj\Debug\netcoreapp3.0\DiceRollingLab.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\obj\Debug\netcoreapp3.0\DiceRollingLab.dll
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\CSharp_October2019\Day 3 Lab Dice Rolling\DiceRollingLab\DiceRollingLab\obj\Debug\netcoreapp3.0\DiceRollingLab.pdb
