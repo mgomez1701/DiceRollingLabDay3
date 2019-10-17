@@ -13,7 +13,7 @@ namespace DiceRollingLab
     
             while (keepGoing)
             {
-                askQuestion();  // calling method asking y/n if they want to roll dice//
+                askQuestion();  // calling 1st method asking y/n if they want to roll dice//
                 string userInput = Console.ReadLine();
                 userInput.ToLower();
 
@@ -23,10 +23,10 @@ namespace DiceRollingLab
                     int answer = askQuestionTwo($"How many sides does each dice have?"); // 2nd method being called //
                     if (answer == 6 ) // nesting an if within an if statment to make sure the user puts a valid number//
                     {
-                        Console.WriteLine($"Roll One: ");
+                        Console.WriteLine($"Rolling.... Here is what you rolled: ");
                         Console.WriteLine("Dice 1: " + random.Next(1, 7)); // setting the min and max of 1 & 7 since there are 6 sides //
                         Console.WriteLine("Dice 2: " + random.Next(1, 7)); // dice 2 //
-                        string roll = Console.ReadLine();
+                        string roll = Console.ReadLine(); // tired to attempt to display special messages .. maybe a switch statement//
                         
                         keepGoing = true;
                     }
@@ -39,12 +39,9 @@ namespace DiceRollingLab
                 {
                     Console.WriteLine($"Better luck next time....");
                     return;
-                }
-                
+                }    
             }
-
         }
-
         public static void askQuestion()
         {
             Console.Write($"Would you like to roll the dice y/n? ");
@@ -54,8 +51,7 @@ namespace DiceRollingLab
             Console.Write(message);
             //ask for user input//
             // converting to int with Parse and returning//
-            return  int.Parse(Console.ReadLine());
-            
+            return  int.Parse(Console.ReadLine());    
         }
      
 
