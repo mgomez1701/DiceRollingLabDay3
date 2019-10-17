@@ -9,7 +9,7 @@ namespace DiceRollingLab
         {
             bool keepGoing = true; // lising out my bool variable i will use later//
             Random random = new Random(); // using a random generator code i found online//
-            
+            Console.WriteLine($"Welcome to the Regal Players Palace!");
     
             while (keepGoing)
             {
@@ -17,29 +17,30 @@ namespace DiceRollingLab
                 string userInput = Console.ReadLine();
                 userInput.ToLower();
 
-                // using a switch statment to ask for the user input on y/n
-                if (userInput == "yes" )
+                // using a if else statment to ask for the user input on y/n
+                if (userInput == "yes" || userInput == "y" || userInput == "Y"|| userInput == "Yes") 
                 {
-                   
-                    Console.WriteLine($"Roll One: ");
-                    Console.WriteLine("Dice 1: " + random.Next(1, 7)); // setting the min and max of 1 & 6 //
-                    Console.WriteLine("Dice 2: " + random.Next(1, 7));
-                    keepGoing = true;
-                }
-                else if (userInput == "y")
-                {
-            
-                    Console.WriteLine($"Roll One: ");
-                    Console.WriteLine("Dice 1: " + random.Next(1, 7)); // setting the min and max of 1 & 6 //
-                    Console.WriteLine("Dice 2: " + random.Next(1, 7));
-                    keepGoing = true;
-                }
+                    int answer = askQuestionTwo($"How many sides does each dice have?"); // 2nd method being called //
+                    if (answer == 6 ) // nesting an if within an if statment to make sure the user puts a valid number//
+                    {
+                        Console.WriteLine($"Roll One: ");
+                        Console.WriteLine("Dice 1: " + random.Next(1, 7)); // setting the min and max of 1 & 7 since there are 6 sides //
+                        Console.WriteLine("Dice 2: " + random.Next(1, 7)); // dice 2 //
+                        string roll = Console.ReadLine();
+                        
+                        keepGoing = true;
+                    }
+                     else if (answer != 6) 
+                     {
+                        Console.WriteLine($"That is not correct. Think back to Monopoly days... How many sides should a dice have?");
+                     }                   
+                } 
                 else
                 {
                     Console.WriteLine($"Better luck next time....");
                     return;
                 }
-
+                
             }
 
         }
